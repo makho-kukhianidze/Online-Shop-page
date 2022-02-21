@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'Source Sans Pro';
+    src: url('../fonts/SourceSansPro-BoldItalic.eot');
+    src: url('../fonts/SourceSansPro-BoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/SourceSansPro-BoldItalic.woff2') format('woff2'),
+        url('../fonts/SourceSansPro-BoldItalic.woff') format('woff'),
+        url('../fonts/SourceSansPro-BoldItalic.ttf') format('truetype'),
+        url('../fonts/SourceSansPro-BoldItalic.svg#SourceSansPro-BoldItalic') format('svg');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}

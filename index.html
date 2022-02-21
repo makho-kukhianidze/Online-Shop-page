@@ -1,0 +1,556 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="description" content="my project">
+  <meta name="keywords" content="HTML,CSS,JavaScript,jQuery">
+  <meta name="author" content="Makho kukhianidze">
+  <meta property="og:url" content="" />
+  <meta property="og:type" content="My project" />
+  <meta property="og:title" content="My Practice work" />
+  <meta property="og:description" content="Web page - HTML,CSS,JavaScript,jQuery" />
+  <meta property="og:image" content="assets/icons/m.png" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="assets/jQuery/jQuery.js"></script>
+  <link rel="stylesheet" href="assets/css/fonts.css">
+  <link rel="stylesheet" href="assets/css/reset.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <title>Online Shop</title>
+  <link rel="icon" href="assets/icons/m.png" type="image/x-icon">
+</head>
+
+<body>
+  <div class="header">
+    <div class="slideshow-container">
+      <button id="play" class="musicBtn">Music</button>
+      <button id="pause" class="musicBtn">Stop</button>
+      <div class="mySlides">
+        <img src="assets/img/slider/1.png" alt="Slider-photo">
+      </div>
+      <div class="mySlides">
+        <img src="assets/img/slider/2.png" alt="Slider-photo">
+      </div>
+      <div class="mySlides">
+        <img src="assets/img/slider/3.png" alt="Slider-photo">
+      </div>
+    </div>
+
+    <div style="text-align:center;">
+      <span class="dot"></span>
+      <span class="dot"></span>
+      <span class="dot"></span>
+    </div>
+  </div>
+  <div id="navbar">
+    <div class="logo-div">
+      <img src="assets/img/logo/max-logo.png" alt="logo">
+    </div>
+    <a class="active" href="javascript:void(0)">Home</a>
+    <a href="javascript:void(0)">Women</a>
+    <a href="javascript:void(0)">Men</a>
+    <a href="javascript:void(0)">Services</a>
+    <a href="javascript:void(0)">Contact us</a>
+  </div>
+  <div class="topnav">
+    <img src="assets/img/logo/max-logo.png" alt="logo">
+    <div id="myLinks">
+      <a href="#Home">Home</a>
+      <a href="#Women">Women</a>
+      <a href="#Men">Men</a>
+      <a href="#Services">Services</a>
+      <a href="#ContactUs">Contact us</a>
+    </div>
+    <a href="javascript:void(0);" class="icon" onclick="burgerMenu()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </div>
+  <script>
+    function burgerMenu() {
+      var x = document.getElementById("myLinks");
+      if (x.style.display === "block") {
+        x.style.display = "none";
+      } else {
+        x.style.display = "block";
+      }
+    }
+  </script>
+  <div class="content">
+    <section class="first-content">
+      <div class="main-container">
+        <h2 class="newCol">Our New Collection</h2>
+        <button id="btnSale" class="btnShape">We have 20% sale</button>
+        <div class="container-four">
+          <div class="box-9">
+            <img src="assets/img/models/a.jpg" class="image" alt="Model">
+            <p id="saleParaOne">Buy now: 550$</p>
+            <div class="middle">
+              <a href="#" class="text">Buy</a>
+            </div>
+          </div>
+          <div class="box-10">
+            <img src="assets/img/models/b.jpg" class="image" alt="Model">
+            <p id="saleParaTwo">Buy now: 750$</p>
+            <div class="middle">
+              <a href="#" class="text">Buy</a>
+            </div>
+          </div>
+          <div class="box-11">
+            <img src="assets/img/models/c.jpg" class="image" alt="Model">
+            <p id="saleParaThree">Buy now: 422$</p>
+            <div class="middle">
+              <a href="#" class="text">Buy</a>
+            </div>
+          </div>
+          <div class="box-15">
+            <img src="assets/img/models/g.jpg" class="image" alt="Model">
+            <p id="saleParaFour">Buy now:672$</p>
+            <div class="middle">
+              <a href="#" class="text">Buy</a>
+            </div>
+          </div>
+          <div class="box-16">
+            <img src="assets/img/models/f.jpg" class="image" alt="Model">
+            <p id="saleParaHund">Buy now: 873$</p>
+            <div class="middle">
+              <a href="#" class="text">Buy</a>
+            </div>
+          </div>
+          <div class="box-21">
+            <img src="assets/img/models/ooa.jpg" class="image" alt="Model">
+            <p id="saleParaTweOne">Buy now: 413$</p>
+            <div class="middle">
+              <a href="#" class="text">Buy</a>
+            </div>
+          </div>
+          <div class="box-12">
+            <img src="assets/img/models/d.jpg" class="image" alt="Model">
+            <p id="saleParaFive">Buy now: 142$</p>
+            <div class="middle">
+              <a href="#" class="text">Buy</a>
+            </div>
+          </div>
+          <div class="box-13">
+            <img src="assets/img/models/e.jpg" class="image" alt="Model">
+            <p id="saleParaSix">Buy now: 843$</p>
+            <div class="middle">
+              <a href="#" class="text">Buy</a>
+            </div>
+          </div>
+          <div class="box-14">
+            <img src="assets/img/models/h.jpg" class="image" alt="Model">
+            <p id="saleParaThos">Buy now: 318$</p>
+            <div class="middle">
+              <a href="#" class="text">Buy</a>
+            </div>
+          </div>
+          <div class="box-21">
+            <img src="assets/img/models/ooc.jpg" class="image" alt="Model">
+            <p id="saleParaNo2">Buy now: 493$</p>
+            <div class="middle">
+              <a href="#" class="text">Buy</a>
+            </div>
+          </div>
+          <div class="box-21">
+            <img src="assets/img/models/ood.jpg" class="image" alt="Model">
+            <p id="saleParaNo">Buy now: 164$</p>
+            <div class="middle">
+              <a href="#" class="text">Buy</a>
+            </div>
+          </div>
+          <div class="box-21">
+            <img src="assets/img/models/ookk.jpg" class="image" alt="Model">
+            <p id="saleParaNo1">Buy now: 173$</p>
+            <div class="middle">
+              <a href="#" class="text">Buy</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="main-container">
+        <div class="container-two-two">
+          <h2>We have new summer collection</h2>
+          <p>Discover the new womenswear collection and buy it!</p>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="main-container">
+        <h2 class="newColTwo">Our New Collection for winter</h2>
+        <div class="container-four-sect">
+          <div class="cloth-sec-box">
+            <img src="assets/img/models/nn.jpg" alt="Model" class="cloth-sec-img">
+            <div class="cloth-sec-box-info">
+              <div class="cloth-box-text">1/8 Going Out Outfits For Winter</div>
+            </div>
+          </div>
+          <div class="cloth-sec-box">
+            <img src="assets/img/models/nna.png" alt="Model" class="cloth-sec-img">
+            <div class="cloth-sec-box-info">
+              <div class="cloth-box-text">2/8 Going Out Outfits For Winter</div>
+            </div>
+          </div>
+          <div class="cloth-sec-box">
+            <img src="assets/img/models/nnas.jpg" alt="Model" class="cloth-sec-img">
+            <div class="cloth-sec-box-info">
+              <div class="cloth-box-text">3/8 Going Out Outfits For Winter</div>
+            </div>
+          </div>
+          <div class="cloth-sec-box">
+            <img src="assets/img/models/nnb.jpg" alt="Model" class="cloth-sec-img">
+            <div class="cloth-sec-box-info">
+              <div class="cloth-box-text">4/8 Going Out Outfits For Winter</div>
+            </div>
+          </div>
+          <div class="cloth-sec-box">
+            <img src="assets/img/models/nnc.png" alt="Model" class="cloth-sec-img">
+            <div class="cloth-sec-box-info">
+              <div class="cloth-box-text">5/8 Going Out Outfits For Winter</div>
+            </div>
+          </div>
+          <div class="cloth-sec-box">
+            <img src="assets/img/models/nnd.jpg" alt="Model" class="cloth-sec-img">
+            <div class="cloth-sec-box-info">
+              <div class="cloth-box-text">6/8 Going Out Outfits For Winter</div>
+            </div>
+          </div>
+          <div class="cloth-sec-box">
+            <img src="assets/img/models/nne.jpg" alt="Model" class="cloth-sec-img">
+            <div class="cloth-sec-box-info">
+              <div class="cloth-box-text">7/8 Going Out Outfits For Winter</div>
+            </div>
+          </div>
+          <div class="cloth-sec-box">
+            <img src="assets/img/models/nnm.jpg" alt="Model" class="cloth-sec-img">
+            <div class="cloth-sec-box-info">
+              <div class="cloth-box-text">8/8 Going Out Outfits For Winter</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="main-container">
+        <div class="container-two-for">
+          <div class="cover-position-text-t">
+            <h2 style="color:rgb(134, 27, 177)">Join us!</h2>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="main-container">
+        <div class="container">
+          <h2>Our shop statistic - Sold out - 2022 year</h2>
+          <div class="statistic-row">
+            <div class="box-1 blue"> Dress <br> 323</div>
+            <div class="box-2 lightBlue">Trous <br> 270</div>
+            <div class="box-3 green">Boots <br> 252</div>
+            <div class="box-4 lightgreen">Caps <br> 170</div>
+            <div class="box-5 red">Bags <br> 120</div>
+          </div>
+          <div class="centerBtn">
+            <div>
+              <button id="btn-statistic" class="btnShape">On</button>
+              <button id="btn-statistic-reset" class="btnShape">Off</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section>
+
+      <div class="main-container">
+        <div class="container-Two">
+          <h2>The three most popular clothes and accessories - 2021 years</h2>
+          <div class="statistic-year-row">
+            <div class="box-6 blue">Dress <span id="boxSixInfo"></span></div>
+            <div class="box-7 lightBlue">Bags <span id="boxSevenInfo"></span></div>
+            <div class="box-8 green">Boots <span id="boxEightInfo"></span></div>
+            <div class="centerBtn-2">
+              <div>
+                <button id="btn-sta-year" class="btnShape">On</button>
+                <button id="btn-sta-year-res" class="btnShape">Off</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="main-container">
+        <div class="container-two-for-r">
+          <div class="cover-position-text-t">
+            <h2>Summer collection 2022 Years</h2>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="main-container">
+        <div class="container-product-slider">
+          <div class="slider" id="slider">
+            <div class="slide" id="slide">
+              <img class="item" src="assets/img/shoes/ad.jpg" alt="photo-shoes">
+              <img class="item" src="assets/img/shoes/ae.jpg" alt="photo-shoes">
+              <img class="item" src="assets/img/shoes/af.jpg" alt="photo-shoes">
+              <img class="item" src="assets/img/shoes/aq.jpg" alt="photo-shoes">
+              <img class="item" src="assets/img/shoes/ar.jpg" alt="photo-shoes">
+              <img class="item" src="assets/img/shoes/ai.jpg" alt="photo-shoes">
+              <img class="item" src="assets/img/shoes/as.jpg" alt="photo-shoes">
+              <img class="item" src="assets/img/shoes/aw.jpg" alt="photo-shoes">
+              <img class="item" src="assets/img/shoes/ay.jpg" alt="photo-shoes">
+            </div>
+            <button class="ctrl-btn pro-prev">Prev</button>
+            <button class="ctrl-btn pro-next">Next</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="main-container">
+        <div class="container-two-three">
+          <div class="container-tw-th-tx">
+            <h2>Our models and her looks</h2>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="main-container">
+        <h2 class="newColTwo">Our last year collections <span style="color: rgb(0, 0, 0);">Women/Men</span></h2>
+        <div class="container-seven-sect">
+          <div class="cloth-sec-box">
+            <img src="assets/img/models/hhi.jpg" alt="Model" class="cloth-sec-img">
+            <div class="cloth-sec-box-info">
+              <div class="cloth-box-text-seven">Spring</div>
+            </div>
+          </div>
+          <div class="cloth-sec-box">
+            <img src="assets/img/models/hhopp.jpeg" alt="Model" class="cloth-sec-img">
+            <div class="cloth-sec-box-info">
+              <div class="cloth-box-text-seven">Summer</div>
+            </div>
+          </div>
+          <div class="cloth-sec-box">
+            <img src="assets/img/models/nna.png" alt="Model" class="cloth-sec-img">
+            <div class="cloth-sec-box-info">
+              <div class="cloth-box-text-seven">Autumn</div>
+            </div>
+          </div>
+          <div class="cloth-sec-box">
+            <img src="assets/img/models/hho.jpg" alt="Model" class="cloth-sec-img">
+            <div class="cloth-sec-box-info">
+              <div class="cloth-box-text-seven">Winter</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="main-container">
+        <div class="container-two-for-t">
+          <div class="cover-position-text">
+            <h2>Our online shop always open for you!</h2>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="main-container">
+        <button id="shList" class="btnShapeS">We have</button>
+        <button id="shListNot" class="btnShapeS">We dont have</button>
+        <div class="container-three">
+          <div class="shop-list">
+            <div id="div1">Shoes</div>
+            <div id="div2">Trousers</div>
+            <div id="div3">Dresses</div>
+            <div id="div4">Boots</div>
+            <div id="div5">Jackets</div>
+            <div id="div6">Accessories</div>
+            <div id="div7">Bottoms</div>
+            <div id="div8">Tops</div>
+            <div id="div9">Swim</div>
+            <div id="div10">Sleep</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="main-container">
+        <h2 class="newColTwo">Our The Latest Articles</h2>
+        <div class="container-nine-sect">
+          <div class="box-nine">
+            <img src="assets/img/models/kk.png" alt="Model">
+          </div>
+          <div class="box-nine bg">
+            <div class="article-bg">
+              <h2>3 Korean designers paving the way at NYFW</h2>
+              <p>Korean designers have been turning heads at many a fashion week over the past few seasons and New York
+                was no exception.
+                Fashion collective Concept Korea returned for the AW22 season, spotlighting a selection of top emerging
+                Korean designers.</p>
+            </div>
+          </div>
+          <div class="box-nine">
+            <img src="assets/img/models/kkk.png" alt="Model">
+          </div>
+        </div>
+        <div class="container-nine-sect">
+          <div class="box-nine bg">
+            <div class="article-bg">
+              <h2>Komrads launches sneakers made of Ocean plastic</h2>
+              <p>Komrads founders Mark & Greet are world lovers and sneaker addicts. But most of all, caring parents.
+                That is why Komrads as a brand,
+                is devoted to help our future generations to protect and grow a more liveable planet. With less waste
+                and more fun.</p>
+            </div>
+          </div>
+          <div class="box-nine">
+            <img src="assets/img/models/kkkj.png" alt="Model">
+          </div>
+        </div>
+        <div class="container-nine-sect">
+          <div class="box-nine bg">
+            <div class="article-bg">
+              <h2>PrettyLittleThing to launch resale marketplace</h2>
+              <p>Boohoo-owned fast-fashion online retailer PrettyLittleThing (PLT) will be launching a pre-owned resale
+                marketplace later this year in a
+                bid to encourage its shoppers to embrace sustainability.</p>
+            </div>
+          </div>
+          <div class="box-nine bg white-bg">
+            <div class="article-bg">
+              <h2>Are the NYFW runways a sign New York's fashion economy is rebounding?</h2>
+              <p>Call it a comeback, or at least New York’s fashion industry is hoping so. According to NYCEDC, the
+                fashion industry employs 4.6
+                percent of the city’s private sector workforce. New York City has long been synonymous with fashion,
+                from the history of the garment
+                district to New York.</p>
+            </div>
+          </div>
+          <div class="box-nine bg">
+            <div class="article-bg">
+              <h2>Is New York's fashion economy back?</h2>
+              <p>With CFDA chairman Tom Ford opting not to show at New York Fashion Week due to supply chain issues
+                thanks to COVID-19, it made many
+                nervous. Although, all hope isn’t lost. Ralph Lauren recently announced.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="main-container">
+        <div class="container-ten-sect">
+          <div class="box-twel">
+            <div class="box-about">
+              <h2>About our company </h2>
+              <p>we are new company! this company founded in 2004 by Anna and Sophie. </p>
+            </div>
+          </div>
+          <div class="column">
+            <div class="cards">
+              <img src="assets/img/models/g.jpg" alt="Anna" style="width:100%">
+              <div class="shapeABout">
+                <h2>Anna Williams</h2>
+                <p class="title">Founder and Art Director</p>
+                <p><button class="button">Profile</button></p>
+              </div>
+            </div>
+          </div>
+          <div class="column">
+            <div class="card">
+              <img src="assets/img/models/c.jpg" alt="Sophie" style="width:100%">
+              <div class="shapeABoutR">
+                <h2>Sophie Brown</h2>
+                <p class="title">Founder and Designer</p>
+                <p><button class="button">Profile</button></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="main-container">
+        <h2 class="map-title">Our office</h2>
+        <div class="container-twel-sect">
+          <div class="box-twel">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d48333.09852855131!2d-74.36407392640592!3d40.78800070672537!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c3a9242f094173%3A0x20c6032fa1563e4b!2sWest%20Essex%20Park!5e0!3m2!1ska!2sge!4v1645383235604!5m2!1ska!2sge"
+              style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <footer>
+    <div class="footer-box">
+      <div class="fot-box">
+        <h2>Product</h2>
+        <ul>
+          <li><a href="#">Dress</a></li>
+          <li><a href="#">Features</a></li>
+          <li><a href="#">Services</a></li>
+          <li><a href="#">Pricing</a></li>
+        </ul>
+      </div>
+      <div class="fot-box">
+        <h2>Company</h2>
+        <ul>
+          <li><a href="#">Headless</a></li>
+          <li><a href="#">Commerce</a></li>
+          <li><a href="#">Multi-Channel</a></li>
+          <li><a href="#">Career</a></li>
+        </ul>
+      </div>
+      <div class="fot-box">
+        <h2>Help Center</h2>
+        <ul>
+          <li><a href="#">Community</a></li>
+          <li><a href="#">Knowledge Base</a></li>
+          <li><a href="#">Multi-Channel</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </div>
+      <div class="fot-box">
+        <h2>Partners</h2>
+        <ul>
+          <li><a href="#">Overview</a></li>
+          <li><a href="#">Become a Partner</a></li>
+          <li><a href="#">Find a Partner</a></li>
+          <li><a href="#">Affiliates</a></li>
+        </ul>
+      </div>
+    </div>
+    <p class="footer-Aut">Copyright ©2022 All rights reserved</p>
+  </footer>
+  <button onclick="topFunction()" id="myBtn" title="Go to top">&#9650;</button>
+  <audio id="my-audio">
+    <source src="assets/audio/pageAudio.mp3" type="audio/mpeg">
+    <p>Download<a href="assets/audio/pageAudio.mp3">pageAudio.mp3</a></p>
+  </audio>
+  <script src="assets/js/archiDesignWeb.js"></script>
+</body>
+
+</html>
